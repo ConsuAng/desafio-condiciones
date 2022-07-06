@@ -7,6 +7,7 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #F7F3F5;
 }
 
 /* Parte 2 */
@@ -33,4 +34,50 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.check {
+  background-color: #7EC89F;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #FEFCFD;
+  font-size: 17px;
+}
+
+/* Parte 3 */
+
+.passContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.box {
+  border: 1px solid #2B6445;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.selects {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.select {
+  padding: 10px;
+}
+
+.passButton {
+  background-color: #7EC89F;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  color: #FEFCFD;
+  font-size: 17px;
 }
