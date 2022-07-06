@@ -2,91 +2,96 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Condiciones</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Condiciones</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
-    <!-- Parte 1 del desafío -->
-    <section></section>
+  <!-- Parte 1 del desafío -->
+  <section></section>
 
-    <!-- Parte 2 del desafío -->
-    <section class="stickerContainer">
-        <p>Puedes llevar hasta 10 stickers</p>
-        <div class="stickers">
-            <div class="image">
-                <img src="./assets/img/chibi-pokemon-1.png">
-                <input type="number" id="poke1">
-            </div>
-            <div class="image">
-                <img src="./assets/img/chibi-pokemon-2.png">
-                <input type="number" id="poke2">
-            </div>
-            <div class="image">
-                <img src="./assets/img/chibi-pokemon-3.png">
-                <input type="number" id="poke3">
-            </div>
-            <div class="image">
-                <img src="./assets/img/chibi-pokemon-4.png">
-                <input type="number" id="poke4">
-            </div>
-        </div>
-        <div class="bottom">
-            <p id="resultSticker"></p>
-            <button class="check">Verificar</button>
-        </div>
-    </section>
+  <!-- Parte 2 del desafío -->
+  <section class="stickerContainer">
+    <p>Puedes llevar hasta 10 stickers</p>
+    <div class="stickers">
+      <div class="image">
+        <img src="./assets/img/chibi-pokemon-1.png">
+        <input type="number" id="poke1">
+      </div>
+      <div class="image">
+        <img src="./assets/img/chibi-pokemon-2.png">
+        <input type="number" id="poke2">
+      </div>
+      <div class="image">
+        <img src="./assets/img/chibi-pokemon-3.png">
+        <input type="number" id="poke3">
+      </div>
+      <div class="image">
+        <img src="./assets/img/chibi-pokemon-4.png">
+        <input type="number" id="poke4">
+      </div>
+    </div>
+    <div class="bottom">
+      <p id="resultSticker"></p>
+      <button class="check">Verificar</button>
+    </div>
+  </section>
 
-    <!-- Parte 3 del desafío -->
-    <section class="passContainer">
-        <div class="box">
-          <h2>Ingresa el password</h2>
-          <div class="selects">
-            <select id="first">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-            </select>
-            <select id="second">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-            </select>
-            <select id="third">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="7">7</option>
-              <option value="8">8</option>
-              <option value="9">9</option>
-            </select>
-          </div>
-          <button class="passButton">Ingresar</button>
-          <br/>
-          <h3 id="response"></h3>
+  <!-- Parte 3 del desafío -->
+  <section class="passContainer">
+    <div class="box">
+      <h2>Ingresa el password</h2>
+      <div class="selects">
+        <div class="select">
+          <select id="first">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
         </div>
-      </section>
+        <div class="select">
+          <select id="second">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="select">
+          <select id="third">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+      <button class="passButton">Ingresar</button>
+      <h3 id="response"></h3>
+    </div>
+  </section>
 
-    <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
