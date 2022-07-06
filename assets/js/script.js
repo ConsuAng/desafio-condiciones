@@ -16,3 +16,28 @@ const checkTotal = () => {
 }
 
 checkButton.addEventListener("click", checkTotal);
+
+//Parte 3 del desafío
+
+const passButton = document.querySelector('.passButton');
+
+const checkPass = () => {
+  let select1 = document.querySelector('#first').value;
+  let select2 = document.querySelector('#second').value;
+  let select3 = document.querySelector('#third').value;
+  let pass = select1+select2+select3;
+
+  if (pass === '911') {
+    console.log('password 1 correcto');
+    document.querySelector('#response').textContent = "Password 1 correcto";
+  } else if (pass === '714') {
+    console.log('password 2 correcto');
+    document.querySelector('#response').textContent = "Password 2 correcto";
+  } else {
+    console.log('password incorrecto');
+    document.querySelector('#response').textContent = "Password incorrecto";
+
+  }
+}
+
+passButton.addEventListener("click", checkPass);
