@@ -40,15 +40,11 @@ const checkPass = () => {
   let pass = select1 + select2 + select3;
 
   if (pass === '911') {
-    console.log('password 1 correcto');
     document.querySelector('#response').textContent = "Password 1 correcto";
   } else if (pass === '714') {
-    console.log('password 2 correcto');
     document.querySelector('#response').textContent = "Password 2 correcto";
   } else {
-    console.log('password incorrecto');
     document.querySelector('#response').textContent = "Password incorrecto";
-
   }
 }
 
